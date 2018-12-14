@@ -65,8 +65,8 @@ window.onload=function(){
    		element.classList.add('hot');
    		now2=index;
    		if(index==0){
-   			baocun.href=canvas.toDataURL('img/png');
-		    baocun.download='a.png';
+   			baocun.href=canvas.toDataURL('img/png');  //保存图片
+		    	baocun.download='a.png';
    		}else if (index==1) {
    			pale.clip(clipObj)
    		}else if (index==2) {
